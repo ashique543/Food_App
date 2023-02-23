@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h3{
+    color: black;
+    padding: 10px;
+}
+.nav ul{
+    padding: 20px;
+    background-color: crimson;
+    border-radius: 57px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 17px;
+}
+.category{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-items{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    
+}
+.category-items::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .category-items::-webkit-scrollbar-track {
+    background-color: rgba(239, 233, 233, 0.686);
+    border-radius: 100%;
+    
+  }
+  
+  .category-items::-webkit-scrollbar-thumb {
+    background-color: crimson;
+    border-radius: 100vw;
+  }
+.circle{
+    background-color: #cccccc;
+    background-image: url("/assets/briyani2.jpg");
+    background-size: cover;
+    margin: 25px;
+    min-width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
