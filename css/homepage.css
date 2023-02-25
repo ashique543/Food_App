@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -15,23 +15,28 @@
     justify-content: space-between;
     align-items: center;
 }
+.brand_name img{
+    width: auto;
+    height: 115px;
+    border-radius: 100%;
+    margin-top: 37px;
+    margin-left: 3px;
+}
 .nav a{
     text-decoration: none;
 }
-.nav h3 {
+#login{
     color: white;
     margin: 10px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.319);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.635);
 }
 
 .nav ul {
     padding: 20px;
     background-color: rgba(220, 20, 60, 0.72);
     border-radius: 57px;
-    border: 1px solid rgba(255, 255, 255, 0.635);
 }
 
 .nav ul li {
@@ -60,24 +65,15 @@
     padding-top: 125px;
 }
 .welcome_components h2{
-    margin: 10px;
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.319);
-    border-radius: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size: 33px;
 }
 .welcome_components ul li {
     display: inline-block;
-    margin: 10px;
     padding: 8px;
-    background-color: rgba(220, 20, 60, 0.72);
-    border: 1px solid rgba(255, 255, 255, 0.635);
-    border-radius: 30px;
-    transition: background-color 0.5s;
-}
-.welcome_components ul li:hover
-{
-    background-color: crimson;
 }
 
 .welcome ul li a {
